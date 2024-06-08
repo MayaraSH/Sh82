@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+header,
+section h2, 
+section h3,
+form button {
+        font-family: "Smooch Sans", sans-serif;
+        font-weight: bold ;
+    }
+
+    body, input, textarea {
+    font-family: "Montserrat", sans-serif;
+    background-color: #fef8e9;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+header .container,
+header .container,
+section .container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+header {
+    padding: 8px;
+    background-color: #212b37;
+    color: #ffc926;
+}
+
+header img {
+    height: 55px;
+    margin-left: 5px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-inline-end: auto;
+    margin-left: 12px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 14px;
+    font-size: 26px;
+}
+
+header nav li a {
+    color: #ffc926;
+    text-decoration: none; 
+}
+
+.internoSH {
+    margin-right: 0 px;
+    width: 671px;
+}
+
+.icons img {
+    height: 35px;
+    margin-top: 30px;  
+}
+
+.icons li {
+    display: inline;
+    margin-right: 8px;
+    margin-top: 100px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-size: 30px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    font-size: 26px;
+}
+
+section .about {
+    background-color: #ffc926;
+    color: #212b37;
+    padding: 69px 40px;
+}
+
+section #program {
+    background-color: #212b37;
+    color: #ffc926;
+    padding: 69px 40px;
+}
+
+.hours {
+    margin-left: 20px;
+}
+
+#contact .container {
+    display: block; 
+    padding-top: 20px;
+}
+
+.colunas {
+    display: flex; 
+    justify-content: space-between ;
+}
+
+form input,
+form textarea,
+form button {
+    display: block; 
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border: 2px solid;
+    border-color: #212b37;
+    border-radius: 15px
+}
+
+form textarea {
+    resize: none ;
+    height: 180px;
+}
+
+form button {
+    background-color: #212b37;
+    color: #ffc926;
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ffc926;
+    color: #212b37;
+}
+
+input:focus, textarea:focus {
+    outline-color:#f3be1f ;
+} 
+
+.social img {
+    height: 30px;
+    cursor: pointer;
+}
+
+.social li {
+    display: inline;
+    margin-right: 8px;
+    text-decoration: none;
+}
+
+#Shalom {
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #212b37;
+    color: #ffc926;
+    font-size: 13px;
+    text-align: center;
+    padding: 16px 0;
+    margin-top: 40px;
+}
